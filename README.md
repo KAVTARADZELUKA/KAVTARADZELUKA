@@ -29,4 +29,3 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kavtaradzeluka&" alt="kavtaradzeluka" /></p>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kavtaradzeluka" alt="kavtaradzeluka" /></a> </p>
 
-![snake gif](https://github.com/KAVTARADZELUKA/KAVTARADZELUKA/blob/output/github-contribution-grid-snake.gif)
