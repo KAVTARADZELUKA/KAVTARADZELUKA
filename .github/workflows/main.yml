@@ -3,27 +3,28 @@ name: Generate Snake
 on:
   schedule:
     - cron: "0 */12 * * *"
-
   workflow_dispatch:
   push:
     branches:
-    - main
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Clone repo
+      - name: Checkout repository
         uses: actions/checkout@v3
-        
-      - name: Generate the snake files in './dist/'
-        uses: Platane/snk@v2
+
+      - name: Generate snake files in './dist/'
         id: snake-gif
+        uses: Platane/snk@v2
         with:
-         github_user_name: ${{ github.rpository_owner }}
-         outputs: |
-           dist/github-contribution-grid-snake.svg
-           dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-           dist/github-contribution-grid-snake.gif?color_snake=orange@color_dots=#bfd6f6,#8dbdff,#64a1f4,#3c7dd9
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#3c7dd9
+
       - name: Show build status
         run: git status
 
