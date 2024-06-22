@@ -1,4 +1,9 @@
-<h1 align="center">Hi 👋, I'm Luka Kavtaradze</h1>
+<h1 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com/?width=600&size=35&center=true&vCenter=true&duration=4000&lines=Hi 👋; I'm Luka Kavtaradze!"/>
+  </a>
+</h1>
+
 <h3 align="center">JAVA DEVELOPER</h3>
 <img align="right" height="250" src="https://www.icegif.com/wp-content/uploads/2023/12/icegif-96.gif" />
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kavtaradzeluka&label=Profile%20views&color=0e75b6&style=flat" alt="kavtaradzeluka" /> </p>
